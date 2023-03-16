@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-logo{display: flex;}
+.navbar-logo img {
+  height: 60px;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  margin-right: 10px;
+  color: #999;
+}
+
+.search-icon i {
+  font-size: 18px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  width: 300px;
+}
+
+.navbar-notification {
+  font-size: 20px;
+  color: #999;
+  margin-right: 20px;
+}
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="images/business.png" alt="Logo"><h1>hello</h1>
+    </div>
+    <div class="navbar-search">
+      <div class="search-icon">
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+    <div class="navbar-notification">
+      <i class="fas fa-bell"></i>he
+    </div>
+  </nav>
+  
+</body>
+</html>

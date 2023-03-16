@@ -1,0 +1,128 @@
+*{font:open Sans;}
+html{
+    scroll-behavior: smooth;
+}
+.scroll-btn{
+    position: fixed;
+    right: 3px;
+    bottom: 1%;
+}
+li{
+    list-style: none;
+}
+/* nav design  */
+.carousel-item{
+background-image: url('images/sky.jpg');
+border: 0;
+border-radius: 10px;
+align-items: center;
+}
+.success:hover {
+    background-color:green;
+  }
+ 
+    
+
+.search{
+    width: 450px;
+
+}
+.search-btn{
+    position: relative;
+    left: -9%;
+
+}
+/* cart design  */
+.cart-btn{
+    position: fixed;
+    right: 1px;
+    top:50%;
+    border: 2px solid #65A30D;
+    
+
+}
+.bell-btn{
+   
+        border:2px solid #65A30D;
+        border-radius: 50%;
+    
+}
+.success{
+    background-color: #65A30D;
+    
+}
+.text-color{
+    color:  #65A30D;
+
+}
+.cng:hover{
+    color: green;
+}
+
+
+.amount{
+    text-decoration: line-through;
+}
+.check{
+    color: orange;
+}
+.pic{
+    position: relative;
+}
+.new{
+    position:absolute;
+    top:0;
+}
+.heart{
+    position: absolute;
+    top:0;
+    right: 0;
+
+}
+
+.menu ul li{list-style:  none;}
+menu li{}
+
+/* footer section style */
+.subscribe{
+    border: 0;
+    border-radius: 10px 10px;
+    position: absolute;
+    outline: none;
+    right:10%;
+    
+}
+.footer{
+    background-image: url('images/slider-1.jpg');
+}
+.input{
+    
+    border:0;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    outline: none;
+    
+   
+    
+}
+/* .footer extension  */
+.box{
+    border:5px solid #65A30D;
+    border-radius: 50%;
+}
+.box:hover{
+    background-color: #65A30D;
+    color: aliceblue;
+}
+
+.quick-links a,.useful-links a{
+    text-decoration: none;
+    color: rgb(90, 87, 87);
+}
+.footer-header{
+    padding-left:150px ;
+}
+
+
+/* 
+ */
